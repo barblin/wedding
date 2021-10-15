@@ -39,14 +39,14 @@ const messages = {
                 '      attendance information from you. (Website is still expected to be changed)',
             arriveInstruction: 'There are many direct flights between Vienna and Denizli. Here are some key facts you need to consider:',
             arriveKey1: 'A flight will take around 4 hours',
-            arriveKey2: 'There will be 1 Stop in Istanbul',
+            arriveKey2: 'There will be 1 stop in Istanbul',
             arriveKey3: 'The price for a round trip will be around 150 Euros, but can reach up to 250 Euros',
             arriveKey4: 'Click here to checkout current flights',
-            arriveKey5: 'You will arrive at Denizli Aiport. From there you can rent a Taxi',
-            arriveKey6: 'A ride from the Airport to the City Center will take 45 Minutes',
+            arriveKey5: 'You will arrive at Denizli Aiport. From there you can rent a taxi',
+            arriveKey6: 'A ride from the airport to the city center will take 45 minutes',
             arriveKey7: 'We will offer to get you from the aiport',
             arriveKey8: 'If you decide to take a taxi, the taxi ride will cost you around 30 Euros',
-            sleepText: 'We are working on providing a sleeping place for you in Denizli. But if decide to stay at a hotel, you can choose\n' +
+            sleepText: 'We are working on providing a sleeping place for you in Denizli. But if you decide to stay at a hotel, you can choose\n' +
                 '    from a large selection of hotels. The price is round about 12 to 50 Euros a night.',
             scheduleText: 'No concrete information available yet',
             denizliText: 'While staying at Denizli, there are many activities you can choose from. Here are just a few suggestions.',
@@ -68,14 +68,14 @@ const messages = {
             arriveInstruction: 'Es gibt viele Direkt-Flüge zwischen Wien und Denizli. Wichtige Informationen an die man denken muss :',
             arriveKey1: 'Ein Flug dauert ungefähr 4 Stunden',
             arriveKey2: 'Es gibt einen Zwischenstopp in Istanbul',
-            arriveKey3: 'Der Flug, abhängig vom Bestelltag, wird ungefähr 150 Euro kosten, kann aber auch bis zu 250 Euro kosten',
-            arriveKey4: 'Hier klicken um aktulle FLüge zu prüfen',
+            arriveKey3: 'Der Hin- und Rückflug, abhängig vom Bestelltag, wird insgesamt ungefähr 150 Euro kosten, kann aber auch bis zu 250 Euro kosten',
+            arriveKey4: 'Hier klicken um aktuelle Flüge zu prüfen',
             arriveKey5: 'Du wirst am Flughafen Denizli ankommen. Dort kannst du leicht ein Taxi mieten',
             arriveKey6: 'Eine Fahrt vom Flughafen bis zum Stadtzentrum wird 45 Minuten dauern',
             arriveKey7: 'Wir bieten auch an, euch vom Flughafen abzuholen',
             arriveKey8: 'Falls du dich entscheidest ein Taxi zu mieten, dann wird die Fahrt ungefähr 30 Euro kosten',
             sleepText: 'Wir sind gerade dabei euch Schlafplätze für die Dauer der Hochzeit in Denizli zu organisieren.' +
-                ' Falls du aber in einem Hotal übernachten möchtest, gibt es viele Möglichkeiten. Die Preise bewegen sich ' +
+                ' Falls du aber in einem Hotel übernachten möchtest, gibt es viele Möglichkeiten. Die Preise bewegen sich ' +
                 'zwischen 12 bis 50 Euro / Nacht.',
             scheduleText: 'Es gibt noch keine konkreten Informationen',
             denizliText: 'Während ihr uns in Denizli besucht, gibt es viele Möglichkeiten eure Zeit zu verbringen. Hier sind nur ein paar Vorschläge.',

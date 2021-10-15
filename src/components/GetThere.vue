@@ -25,6 +25,7 @@
         src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d201741.98562712478!2d29.249028769056228!3d37.80835015964934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x14c6ee707e550963%3A0x7ef8a457dcec2fb8!2sCumhuriyet%20Mah.%2C%20Denizli%20%C3%87ardak%20Havaliman%C4%B1%2C%20K%C3%BCme%20Evler%20Sok.%2C%20%C3%87ardak%2FDenizli%2C%20Turkey!3m2!1d37.773965!2d29.690388199999997!4m5!1s0x14c73f31661caa7b%3A0x967564758913b0ee!2s15%20May%C4%B1s%2C%20hotel%2C%20796.%20Sokak%2C%20Denizli%20Merkez%2FDenizli%2C%20Turkey!3m2!1d37.7774918!2d29.0881972!5e0!3m2!1sen!2sat!4v1632342576463!5m2!1sen!2sat"
         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <br>
+    <br>
   </div>
 </template>
 

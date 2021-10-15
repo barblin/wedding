@@ -17,6 +17,8 @@
     <img width="100%" src="plaj.jpg">
     <img width="100%" src="göl.jpg">
     <br>
+    <br>
+    <br>
   </div>
 </template>
 
