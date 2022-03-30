@@ -20,8 +20,8 @@ export default {
 <style>
 .locale-changer {
   position: absolute;
-  margin-top: -20px;
-  margin-left: 0px;
+  margin-top: 20px;
+  margin-left: 10%;
 }
 
 .select {
@@ -29,7 +29,13 @@ export default {
   border: #42b983;
   background-color: white;
   color: #006400;
+  font-weight: bold;
   text-decoration: none;
-  font-family: 'Megrim';
+  font-family: 'Encode Sans', sans-serif;
+  width: 80px;
+}
+
+option {
+  font-weight: bold;
 }
 </style>

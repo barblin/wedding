@@ -1,10 +1,28 @@
 <template>
-  <div>
+  <div class="page">
     <br>
-    <p>{{ $t("message.scheduleText") }}</p>
-    <iframe
-        src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FVienna&title=E%26J%20Wedding&src=b2J1NTEybzBkaWM1bm9hbWluNmZqb3ZyZ2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23F4511E"
-        style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+    <div></div>
+    <br>
+    <div class="cards-page">
+      <br>
+      <br>
+      <div class="card">
+        <img src="sunset-at-pamukkale-1314428.jpg" style="width:100%"/>
+        <div class="container">
+          <h4><b>{{ $t("message.adaTitle") }}</b></h4>
+          <p>{{ $t("message.adaText") }}</p>
+          <p><a href="https://goo.gl/maps/DUN2nUpcnpVyErG8A">Location</a></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="oleksandr-kurchev-BGGgkws03KM-unsplash.jpg" style="width:100%"/>
+        <div class="container">
+          <h4><b>{{ $t("message.bcnTitle") }}</b></h4>
+          <p>{{ $t("message.bcnText") }}</p>
+          <p><a href="https://goo.gl/maps/zyheQRyU5QPg8WaL9">Location</a></p>
+        </div>
+      </div>
+    </div>
     <br>
     <br>
   </div>
@@ -17,6 +35,22 @@ export default {
 </script>
 
 <style scoped>
+
+.cards-page {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 49%;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  float: left;
+}
 
 .facts {
   width: 100%;

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page">
     <br>
     <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSdsItZncDfCiMCAzK6SFfmXhk08qUYw2wAN4_N6Cwoy4vul0A/viewform?embedded=true"

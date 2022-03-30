@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page">
     <br>
     <pdf class="invitation" width="100%" src="./ezgi-johannes25.pdf"></pdf>
     <br>
@@ -22,7 +22,7 @@ export default {
 
 .invitation {
   margin-bottom: 30px;
-  border: solid black 2px;
+  border: solid #AFA268 2px;
   text-decoration: none;
 }
 

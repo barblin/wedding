@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="hello">{{ msg }}</h1>
+    <br>
     <p class="welcome-text">{{ $t("message.welcome") }}</p>
     <br>
   </div>
@@ -39,22 +39,13 @@ a {
   color: #42b983;
 }
 
-.hello {
-  color: #b08d57;
-  /*font-family: 'Ephesis', cursive;*/
-  /*font-family: 'Great Vibes', cursive;*/
-  /*font-family: 'Grey Qo', cursive;*/
-  font-family: 'Megrim', cursive;
-  font-weight: 100;
-  font-size: 4rem;
-}
-
 .welcome-text {
   font-family: 'Encode Sans', sans-serif;
   font-size: 1.5rem;
-  margin-top: -40px;
+  margin-top: -30px;
   margin-right: 5px;
   margin-left: 5px;
-  color: #AFA268;
+  margin-bottom: 0px;
+  color: #7e6f20;
 }
 </style>

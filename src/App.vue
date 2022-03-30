@@ -1,17 +1,28 @@
 <template>
   <div id="app">
-    <locale-changer></locale-changer>
-    <HelloWorld msg="Ezgi & Johannes"/>
+    <div id="banner">
+      <locale-changer></locale-changer>
+      <br>
+      <object data="invitation-Ezgi_Johannes_solobronze.svg" width="85%" height="200" style="max-width: 840px"></object>
+      <br>
+      <HelloWorld msg="Ezgi & Johannes"/>
+
+    </div>
+    <br>
     <div class="nav">
-      <router-link class="route-link" to="/">{{ $t("message.rsvp") }}</router-link>
+      <router-link class="route-link" to="/invitation">{{ $t("message.rsvp") }}</router-link>
       <router-link class="route-link" to="/how-to-get-there">{{ $t("message.arrive") }}</router-link>
       <router-link class="route-link" to="/where-to-sleep">{{ $t("message.sleep") }}</router-link>
       <router-link class="route-link" to="/schedule">{{ $t("message.schedule") }}</router-link>
+      <router-link class="route-link" to="/language">{{ $t("message.lang") }}</router-link>
       <router-link class="route-link" to="/about">{{ $t("message.denizli") }}</router-link>
-      <router-link class="route-link" to="/invitation">{{ $t("message.invitation") }}</router-link>
+      <router-link class="route-link" to="/gifts">{{ $t("message.gifts") }}</router-link>
+      <router-link class="route-link" to="/">{{ $t("message.invitation") }}</router-link>
       <router-view></router-view>
     </div>
-    <img class="footer" src="invitation-small.svg" />
+    <div class="footer-container">
+      <img class="footer" src="invitation-small.svg"/>
+    </div>
   </div>
 </template>
 
@@ -30,6 +41,15 @@ export default {
 
 <style>
 
+#banner {
+  background: url('../public/aydin-hassan-rnOdgU4EEWU-unsplash.jpg');
+  width: 100%;
+  min-height: 189px;
+  z-index: -1;
+  border-bottom: solid rgba(175, 162, 104, 0.10) 2px;
+
+}
+
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
 
 html {
@@ -37,38 +57,47 @@ html {
 */
 }
 
+.footer-container {
+  width: 100%;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
   width: 100px;
+  margin-bottom: 50px;
 }
 
 body {
   font-size: 18px;
   line-height: 1.5;
-  font-weight: 400;
-  max-width: 1080px;
+  font-weight: 500;
   margin: 0 auto !important;
   float: none !important;
+  justify-content: center;
+  text-align: center;
+}
+
+.page {
+  margin: auto;
+  max-width: 1080px;
 }
 
 #app {
   font-family: 'Encode Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 50px;
   color: #06070a;
-  margin-bottom: 100px;
-  max-width: 100%;
 }
 
 .route-link {
   padding-right: 20px;
-  margin: 10px;
+  margin: 10px 10px 10px 10px;
   padding-left: 20px;
   text-align: center;
   border: solid 1px;
-  opacity: 0.7;
-  color: #006400;
+  color: #026502;
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -77,8 +106,23 @@ body {
 
 .nav {
   width: 100%;
-  word-wrap:break-word;
-  margin-top: -10px;
+  word-wrap: break-word;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.fact-head {
+  margin: 10px;
+}
+
+a {
+  color: #7e6f20;
 }
 
 </style>
