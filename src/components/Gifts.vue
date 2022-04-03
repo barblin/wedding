@@ -1,7 +1,7 @@
 <template>
   <div>
     <br>
-    <div class="fact-head">
+    <div class="fact-head page">
       <p>{{ $t("message.giftsMsg") }}</p>
     </div>
   </div>
@@ -18,5 +18,7 @@ export default {
 .fact-head {
   margin-top: 50px;
   margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

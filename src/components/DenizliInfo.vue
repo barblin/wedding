@@ -2,6 +2,8 @@
   <div>
     <br>
     <div class="fact-head">
+      <p>{{ $t("message.sunscreen") }}</p>
+      <p>{{ $t("message.badehose") }}</p>
       <p>{{ $t("message.denizliText") }}</p>
     </div>
     <br>

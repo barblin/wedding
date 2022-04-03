@@ -54,6 +54,8 @@ const messages = {
             sleepText: 'We are working on providing a price reduction on accommodations in Denizli. But if you decide to stay at a hotel, you can choose\n' +
                 '    from a large selection of hotels. The price is round about 12 to 100 Euros a night.',
             scheduleText: 'No concrete information available yet',
+            sunscreen: 'We recommend that you bring a sun protection with factor 50 with you.',
+            badehose: 'After the ceremony you will have the possibility to dip into the water. Don\'t forget to bring your swimsuit!',
             denizliText: 'While staying at Denizli, there are many activities you can choose from. Here are just a few suggestions.',
             denizliSprings: 'Pamukkale hot springs',
             denizliRoman: 'Roman ruins at Pamukkale (Hierapolis)',
@@ -171,6 +173,8 @@ on /ohn/ = 10
                 ' Falls du aber in einem Hotel übernachten möchtest, gibt es viele Möglichkeiten. Die Preise bewegen sich ' +
                 'zwischen 12 bis 100 Euro / Nacht.',
             scheduleText: 'Es gibt noch keine konkreten Informationen',
+            sunscreen: 'Wir empfehlen euch einen Sonnenschutz mit Sonnenschutzfaktor 50 mitzubringen.',
+            badehose: 'Nach der Zeremonie gibt es die Möglichkeit ins Wasser zu springen, also Badehose nicht vergessen!',
             denizliText: 'Während ihr uns in Denizli besucht, gibt es viele Möglichkeiten eure Zeit zu verbringen. Hier sind nur ein paar Vorschläge.',
             denizliSprings: 'Pamukkale heiße Quellen',
             denizliRoman: 'Römische Ruinen Pamukkale (Hierapolis)',
