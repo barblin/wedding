@@ -49,12 +49,10 @@ export default {
   width: 49%;
   margin-right: 20px;
   margin-bottom: 50px;
-  float: left;
 }
 
 .facts {
   width: 100%;
-  float: left;
   align: left;
   text-align: left;
 }

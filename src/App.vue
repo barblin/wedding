@@ -74,8 +74,6 @@ body {
   line-height: 1.5;
   font-weight: 500;
   margin: 0 auto !important;
-  float: none !important;
-  justify-content: center;
   text-align: center;
 }
 
@@ -102,11 +100,12 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  word-wrap: break-word;
 }
 
 .nav {
   width: 100%;
-  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .card:hover {

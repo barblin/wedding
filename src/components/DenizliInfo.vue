@@ -55,7 +55,6 @@ export default {
   width: 31%;
   margin-right: 20px;
   margin-bottom: 50px;
-  float: left;
 }
 
 
