@@ -43,8 +43,6 @@ a {
   font-family: 'Encode Sans', sans-serif;
   font-size: 1.5rem;
   margin-top: -30px;
-  margin-right: 5px;
-  margin-left: 5px;
   margin-bottom: 0px;
   color: #7e6f20;
 }
