@@ -19,16 +19,16 @@
       <router-link class="route-link" to="/how-to-get-there">{{
         $t("message.arrive")
       }}</router-link>
-      <router-link class="route-link" to="/where-to-sleep">{{
+      <router-link v-if="!($i18n.locale === 'Türkçe')" class="route-link" to="/where-to-sleep">{{
         $t("message.sleep")
       }}</router-link>
       <router-link class="route-link" to="/schedule">{{
         $t("message.schedule")
       }}</router-link>
-      <router-link class="route-link" to="/language">{{
+      <router-link v-if="!($i18n.locale === 'Türkçe')"  class="route-link" to="/language">{{
         $t("message.lang")
       }}</router-link>
-      <router-link class="route-link" to="/about">{{
+      <router-link v-if="!($i18n.locale === 'Türkçe')"  class="route-link" to="/about">{{
         $t("message.denizli")
       }}</router-link>
       <router-link class="route-link" to="/gifts">{{
