@@ -14,16 +14,13 @@ import gifts from "@/components/Gifts";
 Vue.use(VueRouter)
 Vue.use(VueI18n)
 
-const routes = [
-    {path: '/how-to-get-there', component: GetThere},
-    {path: '/where-to-sleep', component: WhereToSleep},
-    {path: '/schedule', component: Schedule},
-    {path: '/language', component: Language},
-    {path: '/', component: Invitation},
-    {path: '/about', component: About},
-    {path: '/gifts', component: gifts},
-    {path: '/invitation', component: rsvp},
-]
+const routes = [{path: '/how-to-get-there', component: GetThere}, {
+    path: '/where-to-sleep',
+    component: WhereToSleep
+}, {path: '/schedule', component: Schedule}, {path: '/language', component: Language}, {
+    path: '/',
+    component: Invitation
+}, {path: '/about', component: About}, {path: '/gifts', component: gifts}, {path: '/invitation', component: rsvp},]
 
 const router = new VueRouter({
     routes: routes // short for `routes: routes`
@@ -39,8 +36,7 @@ const messages = {
             denizli: 'Infos',
             invitation: 'Invitation',
             gifts: 'Gifts',
-            giftsMsg: '... are not required. We are happy that you will come. However, if you wish to give a gift, ' +
-                'we will gratefully accept a small contribution towards our honeymoon.',
+            giftsMsg: '... are not required. We are happy that you will come. However, if you wish to give a gift, ' + 'we will gratefully accept a small contribution towards our honeymoon.',
             welcome: 'We are looking forward to celebrate this special day with you!',
             arriveInstruction: 'There are many flights between Vienna and Denizli with stop in İstanbul. The most important providers are:',
             arriveKey1: 'A flight will take around 4 to 5 hours',
@@ -51,8 +47,7 @@ const messages = {
             arriveKey6: 'A ride from the airport to the city center will take 45 minutes',
             arriveKey7: 'We will offer to get you from the aiport',
             arriveKey8: 'If you decide to take a taxi, the taxi ride will cost you around 30 Euros',
-            sleepText: 'We are working on providing a price reduction on accommodations in Denizli. But if you decide to stay at a hotel, you can choose\n' +
-                '    from a large selection of hotels. The price is round about 12 to 100 Euros a night.',
+            sleepText: 'We are working on providing a price reduction on accommodations in Denizli. But if you decide to stay at a hotel, you can choose\n' + '    from a large selection of hotels. The price is round about 12 to 100 Euros a night.',
             scheduleText: 'No concrete information available yet',
             sunscreen: 'We recommend that you bring a sun protection with factor 50 with you.',
             badehose: 'After the ceremony you will have the possibility to dip into the water. Don\'t forget to bring your swimsuit!',
@@ -70,9 +65,7 @@ const messages = {
             airplaneOnlyText2: "With plane to Denizli Çardak Airport (DNZ)",
             airplaneOnlyText3: "From Denizli Airport to City Centre (1h)",
             airplaneOnlyBullet1: "Bus - Big bus to common central station (€2-3pp) ",
-            airplaneOnlyBullet2: "Bus - VIP minibus directly to the address (€6-7 pp) - tickets sold on-board - Busses " +
-                "depart according to plane arrivals and departures - " +
-                "for more info ",
+            airplaneOnlyBullet2: "Bus - VIP minibus directly to the address (€6-7 pp) - tickets sold on-board - Busses " + "depart according to plane arrivals and departures - " + "for more info ",
             airplaneOnlyBullet3: "Taxi (€10-15)",
 
             planeAndTrain: "Flight to Izmir and Train to Denizli",
@@ -147,8 +140,7 @@ on /ohn/ = 10
 
             lang: "Language"
         }
-    },
-    Deutsch: {
+    }, Deutsch: {
         message: {
             rsvp: 'Bestätigung',
             arrive: 'Ankunft',
@@ -157,8 +149,7 @@ on /ohn/ = 10
             denizli: 'Infos',
             invitation: 'Einladung',
             gifts: 'Geschenke',
-            giftsMsg: '... sind nicht nötig. Wir sind glücklich dass du kommen kannst. Falls du uns aber ein Geschenk machen möchtest,' +
-                'dann nehmen wir dankbar auch einen kleinen Beitrag an unseren Flitterwochen entgegen.',
+            giftsMsg: '... sind nicht nötig. Wir sind glücklich dass du kommen kannst. Falls du uns aber ein Geschenk machen möchtest,' + 'dann nehmen wir dankbar auch einen kleinen Beitrag an unseren Flitterwochen entgegen.',
             welcome: "Wir freuen uns darauf diesen besonderen Tag mit euch zu feiern!",
             arriveInstruction: 'Es gibt viele Flüge zwischen Wien und Infos mit Zwischenstopp in İstanbul. Die wichtigsten Anbieter sind:',
             arriveKey1: 'Ein Flug dauert ungefähr 4 bis 5 Stunden',
@@ -169,9 +160,7 @@ on /ohn/ = 10
             arriveKey6: 'Eine Fahrt vom Flughafen bis zum Stadtzentrum wird 45 Minuten dauern',
             arriveKey7: 'Wir bieten auch an, euch vom Flughafen abzuholen',
             arriveKey8: 'Falls du dich entscheidest ein Taxi zu mieten, dann wird die Fahrt ungefähr 30 Euro kosten',
-            sleepText: 'Wir sind gerade dabei euch vergünstigte Schlafplätze für die Dauer der Hochzeit in Denizli zu organisieren.' +
-                ' Falls du aber in einem Hotel übernachten möchtest, gibt es viele Möglichkeiten. Die Preise bewegen sich ' +
-                'zwischen 12 bis 100 Euro / Nacht.',
+            sleepText: 'Wir sind gerade dabei euch vergünstigte Schlafplätze für die Dauer der Hochzeit in Denizli zu organisieren.' + ' Falls du aber in einem Hotel übernachten möchtest, gibt es viele Möglichkeiten. Die Preise bewegen sich ' + 'zwischen 12 bis 100 Euro / Nacht.',
             scheduleText: 'Es gibt noch keine konkreten Informationen',
             sunscreen: 'Wir empfehlen euch einen Sonnenschutz mit Sonnenschutzfaktor 50 mitzubringen.',
             badehose: 'Nach der Zeremonie gibt es die Möglichkeit ins Wasser zu springen, also Badehose nicht vergessen!',
@@ -189,9 +178,7 @@ on /ohn/ = 10
             airplaneOnlyText2: "Mit dem Flugzeug nach Flughafen Denizli Çardak (DNZ)",
             airplaneOnlyText3: "Vom Flughafen Denizli zum Stadtzentrum (1h)",
             airplaneOnlyBullet1: "Bus - Mit großem Bus zum Stadtzentrum (€2-3 pro Person) ",
-            airplaneOnlyBullet2: "Bus - Mit VIP Minibus direkt zu deiner Adresse (€6-7 pro Person) - Tickets werden im Bus verkauft - Die Ankunft " +
-                "und Abfahrt der Busse orientiert sich nach Landung und Abflug der Flugzeuge - " +
-                "für mehr Informationen  ",
+            airplaneOnlyBullet2: "Bus - Mit VIP Minibus direkt zu deiner Adresse (€6-7 pro Person) - Tickets werden im Bus verkauft - Die Ankunft " + "und Abfahrt der Busse orientiert sich nach Landung und Abflug der Flugzeuge - " + "für mehr Informationen  ",
             airplaneOnlyBullet3: "Taxi (€10-15)",
 
             planeAndTrain: "Flug nach Izmir und Zug nach Denizli",
@@ -266,8 +253,7 @@ on /ohn/ = 10
 
             lang: "Sprache"
         }
-    },
-    Türkçe: {
+    }, Türkçe: {
         message: {
             rsvp: 'Lütfen Cevap Veriniz',
             arrive: 'Ulaşım',
@@ -276,8 +262,7 @@ on /ohn/ = 10
             denizli: 'Bilgi',
             invitation: 'Davet',
             gifts: 'Hediyeler',
-            giftsMsg: '... sind nicht nötig. Wir sind glücklich dass du kommen kannst. Falls du uns aber ein Geschenk machen möchtest,' +
-                'dann nehmen wir dankbar auch einen kleinen Beitrag an unseren Flitterwochen entgegen.',
+            giftsMsg: '... sind nicht nötig. Wir sind glücklich dass du kommen kannst. Falls du uns aber ein Geschenk machen möchtest,' + 'dann nehmen wir dankbar auch einen kleinen Beitrag an unseren Flitterwochen entgegen.',
             welcome: "Bu özel günü sizinle birlikte kutlamak için sabırsızlanıyoruz!",
             arriveInstruction: 'Es gibt viele Flüge zwischen Wien und Infos mit Zwischenstopp in İstanbul. Die wichtigsten Anbieter sind:',
             arriveKey1: 'Ein Flug dauert ungefähr 4 bis 5 Stunden',
@@ -288,9 +273,7 @@ on /ohn/ = 10
             arriveKey6: 'Eine Fahrt vom Flughafen bis zum Stadtzentrum wird 45 Minuten dauern',
             arriveKey7: 'Wir bieten auch an, euch vom Flughafen abzuholen',
             arriveKey8: 'Falls du dich entscheidest ein Taxi zu mieten, dann wird die Fahrt ungefähr 30 Euro kosten',
-            sleepText: 'Wir sind gerade dabei euch vergünstigte Schlafplätze für die Dauer der Hochzeit in Denizli zu organisieren.' +
-                ' Falls du aber in einem Hotel übernachten möchtest, gibt es viele Möglichkeiten. Die Preise bewegen sich ' +
-                'zwischen 12 bis 100 Euro / Nacht.',
+            sleepText: 'Wir sind gerade dabei euch vergünstigte Schlafplätze für die Dauer der Hochzeit in Denizli zu organisieren.' + ' Falls du aber in einem Hotel übernachten möchtest, gibt es viele Möglichkeiten. Die Preise bewegen sich ' + 'zwischen 12 bis 100 Euro / Nacht.',
             scheduleText: 'Es gibt noch keine konkreten Informationen',
             sunscreen: 'Wir empfehlen euch einen Sonnenschutz mit Sonnenschutzfaktor 50 mitzubringen.',
             badehose: 'Nach der Zeremonie gibt es die Möglichkeit ins Wasser zu springen, also Badehose nicht vergessen!',
@@ -308,9 +291,7 @@ on /ohn/ = 10
             airplaneOnlyText2: "Mit dem Flugzeug nach Flughafen Denizli Çardak (DNZ)",
             airplaneOnlyText3: "Vom Flughafen Denizli zum Stadtzentrum (1h)",
             airplaneOnlyBullet1: "Bus - Mit großem Bus zum Stadtzentrum (€2-3 pro Person) ",
-            airplaneOnlyBullet2: "Bus - Mit VIP Minibus direkt zu deiner Adresse (€6-7 pro Person) - Tickets werden im Bus verkauft - Die Ankunft " +
-                "und Abfahrt der Busse orientiert sich nach Landung und Abflug der Flugzeuge - " +
-                "für mehr Informationen  ",
+            airplaneOnlyBullet2: "Bus - Mit VIP Minibus direkt zu deiner Adresse (€6-7 pro Person) - Tickets werden im Bus verkauft - Die Ankunft " + "und Abfahrt der Busse orientiert sich nach Landung und Abflug der Flugzeuge - " + "für mehr Informationen  ",
             airplaneOnlyBullet3: "Taxi (€10-15)",
 
             planeAndTrain: "Flug nach Izmir und Zug nach Denizli",
@@ -389,12 +370,20 @@ on /ohn/ = 10
 }
 
 const i18n = new VueI18n({
-    locale: 'Deutsch',
-    messages: messages
+    locale: 'Deutsch', messages: messages
 })
 
-new Vue({
-    render: h => h(App),
-    router: router,
-    i18n: i18n
-}).$mount('#app')
+fetch(process.env.BASE_URL + "config.json")
+    .then((response) => response.json())
+    .catch(() => {
+        alert("Please place a valid 'config.json' file into your public folder. See https://github.com/barblin/wedding for examples.")
+    })
+    .then((config) => {
+        Vue.prototype.$config = config
+        new Vue({
+            render: h => h(App), router: router, i18n: i18n
+        }).$mount('#app')
+    }).catch(() => {
+        alert("Please place a valid 'config.json' file into your public folder. See https://github.com/barblin/wedding for examples.")
+    }
+)
