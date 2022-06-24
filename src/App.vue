@@ -16,9 +16,12 @@
       <router-link class="route-link" to="/invitation">{{
         $t("message.rsvp")
       }}</router-link>
-      <router-link class="route-link" to="/how-to-get-there">{{
+      <router-link v-if="!($i18n.locale === 'Türkçe')" class="route-link" to="/how-to-get-there">{{
         $t("message.arrive")
       }}</router-link>
+      <router-link v-if="$i18n.locale === 'Türkçe'" class="route-link" to="/ulasim">{{
+          $t("message.arrive")
+        }}</router-link>
       <router-link v-if="!($i18n.locale === 'Türkçe')" class="route-link" to="/where-to-sleep">{{
         $t("message.sleep")
       }}</router-link>

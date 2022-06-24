@@ -10,6 +10,7 @@ import rsvp from "./components/rsvp";
 import About from "./components/DenizliInfo";
 import Language from "@/components/Language";
 import gifts from "@/components/Gifts";
+import ulasim from "@/components/Ulasim";
 
 Vue.use(VueRouter)
 Vue.use(VueI18n)
@@ -20,7 +21,8 @@ const routes = [{path: '/how-to-get-there', component: GetThere}, {
 }, {path: '/schedule', component: Schedule}, {path: '/language', component: Language}, {
     path: '/',
     component: Invitation
-}, {path: '/about', component: About}, {path: '/gifts', component: gifts}, {path: '/invitation', component: rsvp},]
+}, {path: '/about', component: About}, {path: '/gifts', component: gifts}, {path: '/invitation', component: rsvp},
+    {path: '/ulasim', component: ulasim}]
 
 const router = new VueRouter({
     routes: routes // short for `routes: routes`
@@ -264,7 +266,6 @@ on /ohn/ = 10
             gifts: 'Hediyeler',
             giftsMsg: '... sind nicht nötig. Wir sind glücklich dass du kommen kannst. Falls du uns aber ein Geschenk machen möchtest,' + 'dann nehmen wir dankbar auch einen kleinen Beitrag an unseren Flitterwochen entgegen.',
             welcome: "Bu özel günü sizinle birlikte kutlamak için sabırsızlanıyoruz!",
-            arriveInstruction: 'Es gibt viele Flüge zwischen Wien und Infos mit Zwischenstopp in İstanbul. Die wichtigsten Anbieter sind:',
             arriveKey1: 'Ein Flug dauert ungefähr 4 bis 5 Stunden',
             arriveKey2: 'Es gibt einen Zwischenstopp in İstanbul',
             arriveKey3: 'Der Hin- und Rückflug, abhängig vom Bestelltag, wird insgesamt ungefähr 150 Euro kosten, kann aber auch bis zu 250 Euro kosten',
@@ -282,8 +283,7 @@ on /ohn/ = 10
             denizliRoman: 'Römische Ruinen Pamukkale (Hierapolis)',
             denizliGöl: 'Salzsee Strand',
 
-            arriveInfo: "Es gibt viele Möglichkeiten anzureisen. Anbei versuchen wir alle Informationen zusammenzufassen. Diese Seite wird laufend aktualisiert.",
-            arriveOneWay: 'Hin- und Rückflug separat zu buchen kann die Planung vereinfachen und ist meistens nicht teurer.',
+            arriveInfo: "Buraya ulaşmanın birçok yolu var. Burada tüm bilgileri özetlemeye çalışıyoruz. Bu sayfa sürekli güncellenmektedir.",
 
             airplaneOnly: "Flug nach Denizli",
             airplaneOnlyText: "Wien - Flughafen Wien (VIE)",
