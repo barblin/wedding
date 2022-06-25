@@ -34,7 +34,7 @@
       <router-link v-if="!($i18n.locale === 'Türkçe')"  class="route-link" to="/about">{{
         $t("message.denizli")
       }}</router-link>
-      <router-link class="route-link" to="/gifts">{{
+      <router-link v-if="!($i18n.locale === 'Türkçe')" class="route-link" to="/gifts">{{
         $t("message.gifts")
       }}</router-link>
       <router-link class="route-link" to="/">{{
