@@ -1,10 +1,16 @@
 <template>
   <div>
+    <h3>{{ $t("message.tips") }}</h3>
     <div class="fact-head mb-1">
       <p>{{ $t("message.sunscreen") }}</p>
       <p>{{ $t("message.badehose") }}</p>
       <p>{{ $t("message.denizliText") }}</p>
+      <p>{{ $t("message.shorts") }}</p>
     </div>
+    <br>
+    <br>
+    <h3>{{ $t("message.attractions") }}</h3>
+
     <div class="cards-page">
       <div class="card card--mr">
         <img
@@ -42,6 +48,8 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
   </div>
 </template>
 
