@@ -1,7 +1,8 @@
 <template>
   <div class="page">
     <br>
-    <pdf class="invitation" width="100%" src="./ezgi-johannes25.pdf"></pdf>
+    <pdf v-if="!($i18n.locale === 'Türkçe')" class="invitation" width="100%" src="./ezgi-johannes25.pdf"></pdf>
+    <pdf v-if="($i18n.locale === 'Türkçe')" class="invitation" width="100%" src="./ezgi-johannes_tr.pdf"></pdf>
     <br>
     <br>
   </div>
