@@ -19,7 +19,7 @@
       <router-link v-if="!($i18n.locale === 'Türkçe')" class="route-link" to="/how-to-get-there">{{
         $t("message.arrive")
       }}</router-link>
-      <router-link v-if="$i18n.locale === 'Türkçe'" class="route-link" to="/ulasim">{{
+      <router-link v-if="false" class="route-link" to="/ulasim">{{
           $t("message.arrive")
         }}</router-link>
       <router-link v-if="!($i18n.locale === 'Türkçe')" class="route-link" to="/where-to-sleep">{{

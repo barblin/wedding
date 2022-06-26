@@ -324,10 +324,10 @@ on /ohn/ = 10
             planeAndBusText5: "Kamil Koç (Flix Bus)",
             planeAndBusText6: "Jede Busfirma hat unterschiedliche Abfahrtszeiten - Tickets kann man in der Station kaufen (€ 7-10 pro Person) - Die bekanntesten Busfirmen sind:",
 
-            adaTitle: '25.08.2022 - Henna Nacht',
+            adaTitle: '25.08.2022 - Kına gecesi',
             adaText: '20:00 - 24:00',
 
-            bcnTitle: '27.08.2022 - Hochzeitsfeier',
+            bcnTitle: '27.08.2022 - Düğün',
             bcnText: '15:30 - open end',
             dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
