@@ -103,7 +103,7 @@ const messages = {
             bcnText: '03:00 pm - open end',
             dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
-Nasılsın? /Nah-swl-swn/ = How are you? = Wie sind sie?{0}{0}
+Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
 İyiyim. /Ee-yee-yeem/  = I’m fine = Mir geht’s gut{0}{0}
 Teşekkurler /teh-shehk-kuer-lehr/ = thank you = Danke{0}{0}
 Sagol /sa-ol/ = thank you (easy) = Danke (einfach){0}{0}
@@ -220,7 +220,7 @@ on /ohn/ = 10
             bcnText: '15:30 - open end',
             dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
-Nasılsın? /Nah-swl-swn/ = How are you? = Wie sind sie?{0}{0}
+Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
 İyiyim. /Ee-yee-yeem/  = I’m fine = Mir geht’s gut{0}{0}
 Teşekkurler /teh-shehk-kuer-lehr/ = thank you = Danke{0}{0}
 Sagol /sa-ol/ = thank you (easy) = Danke (einfach){0}{0}
@@ -331,7 +331,7 @@ on /ohn/ = 10
             bcnText: '15:30 - open end',
             dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
-Nasılsın? /Nah-swl-swn/ = How are you? = Wie sind sie?{0}{0}
+Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
 İyiyim. /Ee-yee-yeem/  = I’m fine = Mir geht’s gut{0}{0}
 Teşekkurler /teh-shehk-kuer-lehr/ = thank you = Danke{0}{0}
 Sagol /sa-ol/ = thank you (easy) = Danke (einfach){0}{0}
