@@ -100,7 +100,7 @@ const messages = {
             adaText: '08:00 pm - 12:00 pm',
 
             bcnTitle: '27.08.2022 - Wedding Celebration',
-            bcnText: '03:00 pm - open end',
+            bcnText: '04:30 pm - open end',
             dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
 Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
@@ -217,7 +217,7 @@ on /ohn/ = 10
             adaText: '20:00 - 24:00',
 
             bcnTitle: '27.08.2022 - Hochzeitsfeier',
-            bcnText: '15:30 - open end',
+            bcnText: '16:30 - open end',
             dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
 Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
@@ -270,7 +270,7 @@ on /ohn/ = 10
             sleep: 'Konaklama',
             schedule: 'Program',
             denizli: 'Bilgi',
-            invitation: 'Davet',
+            invitation: 'Davetiye',
             gifts: 'Hediyeler',
             giftsMsg: '... sind nicht nötig. Wir sind glücklich dass du kommen kannst. Falls du uns aber ein Geschenk machen möchtest,' + 'dann nehmen wir dankbar auch einen kleinen Beitrag an unseren Flitterwochen entgegen.',
             welcome: "Bu özel günü sizinle birlikte kutlamak için sabırsızlanıyoruz!",
@@ -328,7 +328,7 @@ on /ohn/ = 10
             adaText: '20:00 - 24:00',
 
             bcnTitle: '27.08.2022 - Düğün',
-            bcnText: '15:30 - open end',
+            bcnText: '16:30 - gece boyu',
             dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
 Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
