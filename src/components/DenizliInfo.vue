@@ -75,6 +75,18 @@ export default {
   margin-bottom: 50px;
 }
 
+@media (max-width: 850px) {
+  .cards-page {
+    width: 99%;
+    display: inline;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+}
+
 .card--mr {
   margin-right: 20px;
 }
