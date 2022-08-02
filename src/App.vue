@@ -31,7 +31,7 @@
       <router-link v-if="!($i18n.locale === 'Türkçe')"  class="route-link" to="/language">{{
         $t("message.lang")
       }}</router-link>
-      <router-link v-if="!($i18n.locale === 'Türkçe')"  class="route-link" to="/about">{{
+      <router-link  class="route-link" to="/about">{{
         $t("message.denizli")
       }}</router-link>
       <router-link v-if="!($i18n.locale === 'Türkçe')" class="route-link" to="/gifts">{{
@@ -58,7 +58,7 @@ export default {
   name: "App",
   components: {
     LocaleChanger,
-    HelloWorld,
+    HelloWorld
   },
 };
 </script>

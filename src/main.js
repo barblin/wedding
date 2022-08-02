@@ -61,6 +61,7 @@ const messages = {
       badehose: 'After midnight you will have the possibility to dip into the water. Don\'t forget to bring your swimsuit!',
       denizliText: 'While staying at Denizli, there are many activities you can choose from. Here are just a few suggestions.',
       shorts: 'Short dresses, crop tops, short trousers and short dressing in general are not a problem in Türkiye.',
+      dressing: 'Due to the heat, we recommend that you wear loose and light clothing, such as linen and cotton over jeans.',
       exchange: 'You can exchange money at the airport or at following locations within Denizli.',
       denizliSprings: 'Pamukkale hot springs',
       denizliSpringsLink: 'Location',
@@ -74,6 +75,12 @@ const messages = {
       tripolisLink: 'Location',
       teleferik: 'Denizli cable car',
       teleferikLink: 'Standort',
+      aphrodisias: 'Aphrodisias Ancient City',
+      kanyon: 'Acıpayam Canyon',
+      gölü: 'Işıklı Lake',
+
+
+      boatTours: "Daily boat tours",
 
       arriveInfo: "There are many possibilities to arrive. Below, we try to summarize all information. This page is being regularly updated.",
       arriveOneWay: 'Booking the outward and return flight separately can make planing easier and is mostly not more expensive.',
@@ -112,7 +119,8 @@ const messages = {
       planeAndBusText6: "Departure times vary between the companies - Tickets are sold at the bus station (€ 7-10 pp) - Best known bus companies:",
 
       adaTitle: '25.08.2022 - Henna Night',
-      adaFeast: '4pm - 6pm  → Banquet',
+      adaCode: 'Dresscode: Semi-Formal & Formal',
+      adaFeast: '4pm - 6pm  → Banquet at Ezgis parents',
       adaBride: '6pm - 7pm  → Bride picking ceremony',
       adaKorso: '7pm - 8pm  → Wedding motorcade',
       adaHenna: '8pm - 0am  → Henna Night',
@@ -122,7 +130,16 @@ const messages = {
       adaDance: 'Dancing',
 
       bcnTitle: '27.08.2022 - Wedding Celebration',
-      bcnText: '04:30 pm - open end',
+      bcnCode: 'Dresscode: Formal',
+      bcnStart: '4:30 pm → Start',
+      bcnCeremony: '5:00 pm → Ceremony',
+      bcnCocktail: '5:30 pm → Cocktail',
+      bcnSeats: '6:30 pm → Transition to seats',
+      bcnFirstDance: '6:45 pm → Grand entrance and first dance',
+      bcnEat: '7:00 pm → The first course is served',
+      bcnDance: '7:15 pm → Dancing begins',
+      bcnAfterTransition: '00:45 am → Transition to after party',
+      bcnAfterParty: '1:00 am → Start of after-party ',
       dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
 Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
@@ -197,11 +214,12 @@ on /ohn/ = 10
       tips: "Tipps",
       attractions: "Sehenswürdigkeiten",
       denizliText: 'Während ihr uns in Denizli besucht, gibt es viele Möglichkeiten eure Zeit zu verbringen. Hier sind nur ein paar Vorschläge.',
-      shorts: 'Kuzre Kleider, Crop Tops, kurze Hosen und kurze Bekleidung allgemein sind in der Türkei kein Problem.',
+      shorts: 'Kurze Kleider, Crop Tops, kurze Hosen und kurze Bekleidung allgemein sind in der Türkei kein Problem.',
+      dressing: 'Weil es durchaus heiß werden kann, empfehlen wir Leinen oder Wolle anstatt Jeans oder enge Kleidung.',
       exchange: 'Geld kann man entweder direkt am Flughafen oder an folgenden Orten in Denizli wechseln. ',
       denizliSprings: 'Pamukkale heiße Quellen',
       denizliSpringsLink: 'Standort',
-      denizliRoman: 'Römische Ruinen Pamukkale (Hierapolis)',
+      denizliRoman: 'Römische Ruinen Hierapolis',
       denizliRomanLink: 'Standort',
       denizliGöl: 'Salda See',
       denizliGölLink: 'Standort',
@@ -211,6 +229,13 @@ on /ohn/ = 10
       tripolisLink: 'Standort',
       teleferik: 'Denizli Seilbahn',
       teleferikLink: 'Standort',
+
+      aphrodisias: 'Aphrodisias Antike Stadt',
+      kanyon: 'Acıpayam Schlucht',
+      gölü: 'Işıklı See',
+
+
+      boatTours: "Tägliche Boot Rundfahrten",
 
       arriveInfo: "Es gibt viele Möglichkeiten anzureisen. Anbei versuchen wir alle Informationen zusammenzufassen. Diese Seite wird laufend aktualisiert.",
       arriveOneWay: 'Hin- und Rückflug separat zu buchen kann die Planung vereinfachen und ist meistens nicht teurer.',
@@ -249,7 +274,8 @@ on /ohn/ = 10
       planeAndBusText6: "Jede Busfirma hat unterschiedliche Abfahrtszeiten - Tickets kann man in der Station kaufen (€ 7-10 pro Person) - Die bekanntesten Busfirmen sind:",
 
       adaTitle: '25.08.2022 - Henna Nacht',
-      adaFeast: '16:00 - 18:00 → Festessen',
+      adaCode: 'Dresscode: Semi-Formell & Formell',
+      adaFeast: '16:00 - 18:00 → Festessen bei Ezgis Eltern',
       adaBride: '18:00 - 19:00 → Brautentführung',
       adaKorso: '19:00 - 20:00 → Autokorso ',
       adaHenna: '20:00 - 24:00 → Henna Nacht',
@@ -259,7 +285,17 @@ on /ohn/ = 10
       adaDance: 'Tanzen',
 
       bcnTitle: '27.08.2022 - Hochzeitsfeier',
-      bcnText: '16:30 - open end',
+      bcnCode: 'Dresscode: Formell',
+      bcnStart: '16:30 → Beginn',
+      bcnCeremony: '17:00 → Zeremonie',
+      bcnCocktail: '17:30 → Apéritif',
+      bcnSeats: '18:30 → Übergang zu den Sitzplätzen',
+      bcnFirstDance: '18:45 → Eintritt des Brautpaars und erster Tanz',
+      bcnEat: '19:00 → Erster Gang wird serviert',
+      bcnDance: '19:15 → Einladung zum tanzen',
+      bcnAfterTransition: '00:45 → Einladung zur After Party',
+      bcnAfterParty: '01:00 → After Party beginnt',
+
       dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
 Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
@@ -330,11 +366,14 @@ on /ohn/ = 10
           + 'zwischen 12 bis 100 Euro / Nacht.',
       scheduleText: 'Es gibt noch keine konkreten Informationen',
       sunscreen: 'Wir empfehlen euch einen Sonnenschutz mit Sonnenschutzfaktor 50 mitzubringen.',
-      badehose: 'Nach der Zeremonie gibt es die Möglichkeit ins Wasser zu springen, also Badehose nicht vergessen!',
+      badehose: 'Gece yarısından sonra havuza girilebilir, dolaysı ile deniz kıyafetlerinizi ve havlularınızı getirmeyi unutmayın.',
       denizliText: 'Während ihr uns in Denizli besucht, gibt es viele Möglichkeiten eure Zeit zu verbringen. Hier sind nur ein paar Vorschläge.',
       denizliSprings: 'Pamukkale heiße Quellen',
-      denizliRoman: 'Römische Ruinen Pamukkale (Hierapolis)',
+      denizliRoman: 'Römische Ruinen Hierapolis',
       denizliGöl: 'Salzsee Strand',
+
+      dressing: 'Öneri: Denizli için genel kıyafetlerinizi seçerken keten ve pamuk gibi hafif ve bol kıyafetler tercih ediniz. Kot gibi kalın ve dar kıyafetler sıcaklıktan dolayı rahatsız edici olabilir.',
+
 
       arriveInfo: "Buraya ulaşmanın birçok yolu var. Burada tüm bilgileri özetlemeye çalışıyoruz. Bu sayfa sürekli güncellenmektedir.",
 
@@ -372,17 +411,30 @@ on /ohn/ = 10
       planeAndBusText6: "Jede Busfirma hat unterschiedliche Abfahrtszeiten - Tickets kann man in der Station kaufen (€ 7-10 pro Person) - Die bekanntesten Busfirmen sind:",
 
       adaTitle: '25.08.2022 - Kına gecesi',
-      adaFeast: '16:00 - 18:00 → Kız evinde yemek',
-      adaBride: '18:00 - 19:00 → Gelin alma',
-      adaKorso: '19:00 - 20:00 → Düğün konvoyu',
-      adaHenna: '20:00 - 24:00 → Kına gecesi',
-      adaFotos: '24:00 - 01:00 → Fotoğraf çekimi',
+      adaCode: 'Kıyafet tipi: Yarı Resmi & Resmi',
+      adaFeast: '16:00 → Kız evinde yemek',
+      adaBride: '18:00 → Gelin alma',
+      adaKorso: '19:00 → Düğün konvoyu',
+      adaHenna: '20:00 → Kına gecesi',
+      adaFotos: '24:00 → Fotoğraf çekimi',
       adaCeremony: 'Kına töreni',
       adaCake: 'Pasta',
       adaDance: 'Dans',
 
+      tips: "Öneriler",
+
       bcnTitle: '27.08.2022 - Düğün',
-      bcnText: '16:30 - gece boyu',
+      bcnCode: 'Kıyafet tipi: Resmi',
+      bcnStart: '16:30 → Başlangıç',
+      bcnCeremony: '17:00 → Seremoni',
+      bcnCocktail: '17:30 → Kokteyl',
+      bcnSeats: '18:30 → Yemek düzenine geçiş',
+      bcnFirstDance: '18:45 → Gelin ile damadın girişi ve ilk dans',
+      bcnEat: '19:00 → Ordövr servisi',
+      bcnDance: '19:15 → Dans başlangıcı',
+      bcnAfterTransition: '00:45 → After partiye geçiş',
+      bcnAfterParty: '01:00 → After parti başlangıcı',
+
       dict: `
 Merhaba /mare-hah-bah/ = Hello = Hallo{0}{0}
 Nasılsın? /Nah-swl-swn/ = How are you? = Wie geht es dir?{0}{0}
